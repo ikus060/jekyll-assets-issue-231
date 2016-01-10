@@ -1,0 +1,16 @@
+title:            Patrik Dufresne Service Logiciel
+gems:
+- jekyll-assets
+- mini_magick
+assets:
+  compress:
+   - css: true
+   - js : true
+  prefix: "/assets"
+  assets:
+    - "*.png"
+  sources:
+    - _assets/images
+
+exclude:
+- vendor
